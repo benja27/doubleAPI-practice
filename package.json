@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
+    "deploy": "gh-pages -d dist",
     "start": "webpack serve --open --mode development ",
     "css": "npx stylelint \"**/*.{css,scss}\" --fix",
     "js": "npx eslint . --fix"
@@ -35,6 +36,7 @@
     "webpack-dev-server": "^4.13.1"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "html-loader": "^4.2.0"
   }
 }
