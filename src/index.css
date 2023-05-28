@@ -2,3 +2,22 @@
   background-color: black;
   color: white;
 } */
+.galery {
+  width: 90%;
+  margin: 0 auto;
+  display:  grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+  gap: 30px;
+}
+
+.galery img {
+  width: 100%; 
+  display: block;
+  margin: 0 auto; 
+}
+i {
+  cursor: pointer;
+}
+i:hover {
+  transform: scale(1.3);
+}
