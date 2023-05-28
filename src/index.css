@@ -1,4 +1,36 @@
-/* body{
-  background-color: black;
-  color: white;
-} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.galery {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(min(350px,100%),1fr));
+  gap: 20px;
+}
+
+img {
+  width: 100%;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+#spinner {
+  position: fixed;
+  font-size: 40px;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 5px;
+}
