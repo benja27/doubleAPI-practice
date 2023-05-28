@@ -1,4 +1,14 @@
-/* body{
-  background-color: black;
-  color: white;
-} */
+body{
+  
+}
+.galery {
+  display: grid;  
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+}
+
+.card img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
