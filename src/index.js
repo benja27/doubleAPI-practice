@@ -6,6 +6,6 @@ const utilities = new Utilities();
 
 // utilities.simulateCards(new Array(30).fill(undefined));
 
-utilities.printPokemons(150);
+utilities.printPokemons(451);
 
 
