@@ -11,7 +11,7 @@ let listOfPokemons = []
 
 document.addEventListener("DOMContentLoaded", e => {
   async function printDb () {
-    listOfPokemons = await utilities.createRealCards(10)
+    listOfPokemons = await utilities.createRealCards(350)
   }  
   printDb()
 })
