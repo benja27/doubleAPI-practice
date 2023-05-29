@@ -2,3 +2,45 @@
   background-color: black;
   color: white;
 } */
+
+.card {
+  overflow: hidden;
+}
+
+
+.galery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.card-body {
+  background: radial-gradient(circle, #000000 0%, #000000 70%, #0000FF 70%, #0000FF 100%);
+}
+
+.card-body img {
+  width: 100%;
+  transform: ;
+}
+
+
+
+.card-body img:hover {
+  transform: scale(1.3); 
+}
+
+.card-body img:hover: {
+  transform: scale(1.3);
+     
+}
+
+.card-body {
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+
+
+.image {
+  transition: transform 0.3s;
+}
+
